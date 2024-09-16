@@ -230,6 +230,18 @@ p {
     color: #666;
 }
 
+.text {
+    background-color: rgb(235, 241, 241);
+    color: rgb(83, 179, 83);
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Community Impact Section */
 .community-impact-section {
     padding: 80px 50px;
@@ -335,62 +347,6 @@ p {
     margin-top: 10rem;
     border-radius: 2rem;
 }
-
-/* How It Works Section */
-.how-it-works-section {
-    padding: 80px 50px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.how-it-works-section h2 {
-    font-size: 2.8rem;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    color: #1c1c28;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-.steps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
-    height: 500px;
-}
-
-.step {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 1 1 calc(45% - 20px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.step:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-.step-icon {
-    font-size: 2.5rem;
-    color: #4caf50;
-    margin-bottom: 15px;
-}
-
-.step h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.step p {
-    font-size: 1rem;
-    color: #666;
-}
-
 
 /* Footer Styles */
 footer {
