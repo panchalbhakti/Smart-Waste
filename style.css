@@ -430,3 +430,141 @@ footer {
         transform: translateY(0);
     }
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-section {
+        height: 50vh;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .features-section {
+        padding: 40px 20px;
+    }
+
+    .features-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+    
+    .community-impact-section {
+        padding: 40px 20px;
+    }
+
+    .impact-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-background img {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* For Small Mobile Devices */
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 1.2rem;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    .features-section {
+        padding: 20px 10px;
+        height: fit-content;
+    }
+
+    .features-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        padding: 15px;
+        padding-bottom: 2rem;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .impact-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .impact-detail .icon {
+        font-size: 2rem;
+    }
+}
