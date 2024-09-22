@@ -283,7 +283,7 @@ p {
 }
 
 .impact-content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #666;
     margin-bottom: 30px;
 }
@@ -296,7 +296,7 @@ p {
 
 .impact-detail {
     background: #ffffff;
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 20px;
     position: relative;
     overflow: hidden;
