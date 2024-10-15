@@ -120,7 +120,7 @@ header nav ul li a:hover {
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.2s, transform 0.3s;
 }
 
 .cta-btn:hover {
