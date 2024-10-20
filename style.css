@@ -411,9 +411,9 @@ footer {
     text-decoration: none;
 }
 
-/* .footer-note a:hover {
+.footer-note a:hover {
      text-decoration: underline; 
-} */
+}
 
 /* Animations */
 @keyframes fadeIn {
