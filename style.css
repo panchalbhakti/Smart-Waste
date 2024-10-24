@@ -407,7 +407,7 @@ footer {
 }
 
 .footer-note a {
-    color: #49a84c;
+    color: #48a84b;
     text-decoration: none;
 }
 
@@ -430,7 +430,7 @@ footer {
 /* Responsive Styles */
 @media (max-width: 768px) {
     header {
-        padding: 16px;
+        padding: 15px;
         flex-direction: column;
         text-align: center;
     }
