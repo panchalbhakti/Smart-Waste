@@ -93,7 +93,7 @@ header nav ul li a:hover {
     position: relative;
     z-index: 1;
     color: #fff;
-    animation: fadeIn 2s ease;
+    animation: fadeIn 3s ease;
 }
 
 .hero-content h1 {
